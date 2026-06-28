@@ -403,20 +403,13 @@ Hooks.on("renderDrawingConfig", (app, html, _context, _options) => {
 
 	container.appendChild(fieldset);
 
-	/* Best-effort live preview while the sheet is open. */
-	fieldset.addEventListener("change", () => {
-		const placeable = doc.object;
-		if (placeable) {
-			try {
-				placeable.renderFlags?.set({ refreshText: true });
-			} catch (_err) {
-				/* preview not available; the saved value will still apply */
-			}
-		}
-	});
-
-	// Some ApplicationV2 sheets size themselves to content; nudge a reflow.
-	if (typeof app.setPosition === "function") app.setPosition({ height: "auto" });
+	// Some ApplicationV2 sheets size themselves to content; nudge a reflow so
+	// the new controls are visible. Guarded since not every layout supports it.
+	try {
+		if (typeof app.setPosition === "function") app.setPosition({ height: "auto" });
+	} catch (_err) {
+		/* fixed-height/scrolling sheet — nothing to do */
+	}
 });
 
 /* -------------------------------------------- */
