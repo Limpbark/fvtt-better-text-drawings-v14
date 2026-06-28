@@ -30,6 +30,6 @@
 	"readme": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/blob/main/README.md",
 	"bugs": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/issues",
 	"license": "MIT",
-	"manifest": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/releases/latest/download/module.json",
+	"manifest": "https://raw.githubusercontent.com/Limpbark/fvtt-better-text-drawings-v14/main/module.json",
 	"download": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/releases/latest/download/module.zip"
 }

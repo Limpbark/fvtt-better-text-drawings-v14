@@ -21,10 +21,17 @@ which was never updated for Foundry v10+.
 In Foundry's **Setup → Add-on Modules → Install Module**, paste this manifest URL:
 
 ```
-https://github.com/Limpbark/fvtt-better-text-drawings-v14/releases/latest/download/module.json
+https://raw.githubusercontent.com/Limpbark/fvtt-better-text-drawings-v14/main/module.json
 ```
 
 Then enable **Better Text Drawings (v14)** in your world's module settings.
+
+> **Why the `raw.githubusercontent.com` link?** Foundry's manifest fetch uses a
+> short timeout that can trip on the multi-hop redirect of a
+> `releases/latest/download/...` URL (see
+> [foundryvtt#9861](https://github.com/foundryvtt/foundryvtt/issues/9861)). The
+> `raw` URL is a direct, redirect-free fetch and installs reliably. The release
+> `.zip` is still used for the actual package download.
 
 ### Recommended
 
