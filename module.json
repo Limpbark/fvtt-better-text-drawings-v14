@@ -1,0 +1,35 @@
+{
+	"id": "better-text-drawings-v14",
+	"title": "Better Text Drawings (v14)",
+	"description": "Adds more options to text drawings: multi-line text, text alignment (left/center/right), and a configurable text stroke (outline) width and color. A modern, Foundry VTT v13/v14 compatible reimplementation inspired by ruipin's original 'Better Text Drawings'.",
+	"version": "1.0.0",
+	"authors": [
+		{
+			"name": "Limpbark",
+			"url": "https://github.com/Limpbark"
+		}
+	],
+	"compatibility": {
+		"minimum": "13",
+		"verified": "14"
+	},
+	"esmodules": [
+		"scripts/module.js"
+	],
+	"styles": [
+		"styles/better-text-drawings.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"url": "https://github.com/Limpbark/fvtt-better-text-drawings-v14",
+	"readme": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/blob/main/README.md",
+	"bugs": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/issues",
+	"license": "MIT",
+	"manifest": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/releases/latest/download/module.json",
+	"download": "https://github.com/Limpbark/fvtt-better-text-drawings-v14/releases/latest/download/module.zip"
+}

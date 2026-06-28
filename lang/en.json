@@ -1,0 +1,33 @@
+{
+	"BTD.SectionTitle": "Better Text Drawings",
+
+	"BTD.Align.inherit": "Default",
+	"BTD.Align.left": "Left",
+	"BTD.Align.center": "Center",
+	"BTD.Align.right": "Right",
+
+	"BTD.Wrap.inherit": "Default",
+	"BTD.Wrap.on": "Enabled (multi-line)",
+	"BTD.Wrap.off": "Disabled",
+
+	"BTD.Fields.align.label": "Text Alignment",
+	"BTD.Fields.align.hint": "Horizontal alignment for multi-line text.",
+	"BTD.Fields.wrap.label": "Word Wrap",
+	"BTD.Fields.wrap.hint": "Wrap long text to the drawing's width. The text box above also accepts manual line breaks.",
+	"BTD.Fields.strokeWidth.label": "Text Stroke Width",
+	"BTD.Fields.strokeWidth.hint": "Outline thickness around the text, in pixels. Leave blank or 0 to use the default.",
+	"BTD.Fields.strokeColor.label": "Text Stroke Color",
+	"BTD.Fields.strokeColor.hint": "Color of the text outline. Only applied when a stroke width is set.",
+
+	"BTD.Settings.AlignChoice.coreDefault": "Foundry default",
+	"BTD.Settings.WrapChoice.coreDefault": "Foundry default",
+
+	"BTD.Settings.defaultTextAlign.name": "Default Text Alignment",
+	"BTD.Settings.defaultTextAlign.hint": "Alignment applied to text drawings that do not set their own. 'Foundry default' leaves core behavior untouched.",
+	"BTD.Settings.defaultWordWrap.name": "Default Word Wrap",
+	"BTD.Settings.defaultWordWrap.hint": "Word-wrap behavior applied to text drawings that do not set their own. 'Foundry default' leaves core behavior untouched.",
+	"BTD.Settings.defaultStrokeWidth.name": "Default Text Stroke Width",
+	"BTD.Settings.defaultStrokeWidth.hint": "Outline thickness (px) used for text drawings that do not set their own. 0 disables the global default.",
+	"BTD.Settings.defaultStrokeColor.name": "Default Text Stroke Color",
+	"BTD.Settings.defaultStrokeColor.hint": "Outline color used together with the default text stroke width."
+}

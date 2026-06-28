@@ -1,0 +1,26 @@
+/* Better Text Drawings (v14) — DrawingConfig additions */
+
+.better-text-drawings-v14-section {
+	margin-top: 0.5rem;
+}
+
+.better-text-drawings-v14-section legend {
+	font-weight: bold;
+}
+
+/* The text field is upgraded from a single-line input to a textarea so that
+   manual line breaks can be entered. Keep it comfortable but compact. */
+textarea.better-text-drawings-v14-textarea {
+	width: 100%;
+	min-height: 3.5em;
+	resize: vertical;
+	font-family: inherit;
+	line-height: 1.3;
+}
+
+.better-text-drawings-v14-section input[type="color"] {
+	min-width: 4rem;
+	height: var(--input-height, 1.75rem);
+	padding: 0;
+	cursor: pointer;
+}
